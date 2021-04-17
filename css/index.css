@@ -35,10 +35,10 @@ vertical-align: baseline;
 * {
   box-sizing: border-box;
   max-width: 100%;
-/*   border:1px solid grey; */
 }
 
 /*general styles*/
+
 html {
   font-size: 62.5%;
 }
@@ -62,11 +62,6 @@ h1 {
 h2,h3,h4,h5,h6 {
 	color: black;
   font-weight: 800;
-}
-
-.plan-visit {
-	color: white;
-	background-color: #FF764E;
 }
 
 a:hover {
@@ -94,29 +89,29 @@ nav a {
 }
 
  .plan-visit {
-  background-color:#FF764E;
-  margin-left:5%;
+  background-color: #FF764E;
+  margin-left: 5%;
 }
 
 .learn-about  {
-  background-color:#5ED3EB;
-  margin:0 12%;
+  background-color: #5ED3EB;
+  margin: 0 12%;
 }
 
 .get-involved  {
-  background-color:#FFCD69;
-  margin-right:5%;
+  background-color: #FFCD69;
+  margin-right: 5%;
 }
 
 /*header section styles*/
 
 .left, .right {
-  display:inline-block;
+  display: inline-block;
 }
 
 .left {
   width: 25%;
-  margin-top: 5%
+  margin-top: 2%;
 }
 
 .left img {
@@ -139,20 +134,22 @@ nav a {
   padding: 2% 4%;
 }
 
+.secondary-title {
+  text-align: center;
+}
+
 .text p {
   margin: 4% 0;
 }
 
 .camp-fire {
   width: 20%;
-  margin: 0 auto;
-  text-align: center;
+  margin: -5% auto;
 }
 
+
 div .camper {
-  width: 20%;
-  margin: 9% auto;
-  text-align: center;
+  margin: 0 auto;
 }
 
 .bgimg {
@@ -161,6 +158,7 @@ div .camper {
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
+  margin-top: 5%;
 }
 
 footer {
