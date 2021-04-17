@@ -1,0 +1,168 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:ital,wght@0,400;1,700&display=swap');
+
+
+/*  Meyer's CSS RESET  */
+
+/*http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/*  Begin Reset  */
+
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+/*   border:1px solid grey; */
+}
+
+/*general styles*/
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-family: 'Roboto Mono', monospace;
+  background: whitesmoke;
+}
+
+section {
+  padding: 4% 0;
+}
+
+h1 {
+	font-family: 'Chelsea Market', cursive;
+	font-size: 5rem;
+  }
+
+h2,h3,h4,h5,h6 {
+	color: black;
+  font-weight: 800;
+}
+
+.plan-visit {
+	color: white;
+	background-color: #FF764E;
+}
+
+a:hover {
+  color: darkblue;
+}
+
+span {
+  font-weight: 900;
+}
+
+/*nav section styles*/ 
+
+nav {
+  padding: 2%;
+}
+
+nav a {
+  display: inline-block;
+  padding: 2% 0;
+  width: 20%;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+ .plan-visit {
+  background-color:#FF764E;
+  margin-left:5%;
+}
+
+.learn-about  {
+  background-color:#5ED3EB;
+  margin:0 12%;
+}
+
+.get-involved  {
+  background-color:#FFCD69;
+  margin-right:5%;
+}
+
+/*header section styles*/
+
+.left, .right {
+  display:inline-block;
+}
+
+.left {
+  width: 25%;
+  margin-top: 5%
+}
+
+.left img {
+  border-radius:50%;
+  border: 1px solid black;
+  margin-bottom: -6%;
+}
+
+.right {
+  width: 60%;
+  margin-left: 5%;
+  line-height: 3;
+}
+
+.text {
+  background-color: #DDB9A3;
+  color: #fff;
+  width: 90%;
+  margin: 0 auto;
+  padding: 2% 4%;
+}
+
+.text p {
+  margin: 4% 0;
+}
+
+.camp-fire {
+  width: 20%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+div .camper {
+  width: 20%;
+  margin: 9% auto;
+  text-align: center;
+}
+
+.bgimg {
+  background-image:url('https://github.com/LambdaSchool/web-module-project-intro-css/blob/main/assets/footer_img.jpg?raw=true');
+  height: 40vh;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+footer {
+  background-color: #F9E7DC;
+}
